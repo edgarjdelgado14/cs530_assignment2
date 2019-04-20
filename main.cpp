@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
 	
 	//Send file to disassembler
 	xed *disassembler = new xed;
-	disassembler->openFiles(*(argv+1));
+	disassembler->fileOpener(*(argv+1));
 	disassembler->disassemble();
 	return 0;
 }
