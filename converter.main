@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+#include<stdio.h>
+#include<sstream>
+
+using namespace std;
+
+class Converter{
+
+public:
+	static string hexToStringBinary(unsigned long hex);
+	static string integerToString(int number);
+	static string stringBinaryToHex(string s);
+	static int stringHexToInt(string s);
+};
+
+
