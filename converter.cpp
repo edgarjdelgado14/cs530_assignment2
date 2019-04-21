@@ -1,7 +1,7 @@
 #include "Converter.main"
 
 //taking an integer and returning that int as a string
-string Converter::integerToString(int number){
+string Converter::intToString(int number){
     string convertingToString;
     stringstream ss; 
     ss << number;
@@ -11,7 +11,7 @@ string Converter::integerToString(int number){
 }
 
 // Converting hex string to integer
-int Converter::stringHexToInt(string hex){
+int Converter::stringHexToInteger(string hex){
     int num = 0;
     int exponent16 = 1;
 
